@@ -6,7 +6,7 @@ def readFile(filename):
     '''
     f = open(filename, 'r', encoding='utf-8')
     ls = []
-    for j in range(501):
+    for j in range(101):
         ls.append(f.readline().strip().split('*'))
     return ls
 
